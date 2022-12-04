@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.folat::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix-widht{
+     width: 1200px;
+     height: auto;
+     margin: auto;
+}
+.full-website{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/* css must */
+.header-menu{
+    background-color: #22c3a3;
+    color: #fff;
+    padding: 10px 20px;
+}
+.header-left h1{
+    float: left;
+    width: 30%;
+    
+    text-transform: ;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    transition: .8s;
+}
+.header-right ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: px;
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    color: rgb(208, 208, 151);
+}
+.header-right ul li:hover{
+    background-color: rgb(83, 118, 106);
+}
+/* banner section */
+.banner{
+    background-image: url(header-bg01.jpg);
+    padding: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 864x;
+    height: 100px;
+    color: #fff;
+}
+.banner h1{
+    text-align: center;
+    padding: px;
+    font-size: 40px;
+}
+.banner p{
+    text-align: center;
+    padding: 10px;
+}
+.banner button{
+    text-align: center;
+    display: inline-block;
+    padding:10px 15px;
+    transform: translate(400px,6px);
+    background-color: #22c3a3;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+/* serbic section */
+.serbic{
+   
+    padding-top: 120px;
+    position: relative; 
+}
+
+
+
+.serbic .p{
+    text-align: center;
+}
+.serbic h2{
+    padding: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.serbic .div1{
+    width: 250px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    text-transform: capitalize;
+}
+.serbic .div1 i{
+    font-size: 40px;
+    color: #0dbf9b;
+    padding: 15px 0px;
+}
+.serbic .div1 h1{
+    padding: 10px 0px;
+    color: #726f6f;
+}
+.serbic .div1 p{
+    padding: 10px 0px;
+    color: #c5c5c5;
+}
+.serbic .div2{
+    position: absolute;
+    left:285px;
+    top: 300px;
+}
+.serbic .div3{
+    position: absolute;
+    left: 590px;
+    top: 300px;
+}
+.serbic .div4{
+    position: absolute;
+    left: 920px;
+    top: 300px;
+}
+.serbices{
+    height: 575px;
+    border-bottom: 2px solid #0dbf9b ;
+}
+.about{
+    text-align: center;
+    padding: 90px 0px;
+}
+.about h1{
+    text-transform: capitalize;
+    
+}
+.about p{
+    color: #c5c5c5;
+    padding: 25px 0px;
+}
+.img img{
+    float: left;
+    width: 40%;
+}
+img{
+    float: left;
+    width: 500px;
+}
+.contact2{
+    float: right;
+    width: 55%; 
+    color:#c7c7c7;
+}
+.contact2 h2{
+    padding: 10px 0px;
+}
+.section{
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    color: #c6c6c6;
+    height: 400px;
+    
+}
+.main-section{
+    width: 750px;
+    margin: auto;
+}
+.section1{
+    text-align: center;
+    padding: 50px 0px;
+    text-transform: capitalize;
+}
+.section1 h1{
+    padding: 10px 0px;
+    color: #797575;
+}
+.section2{
+    width: 150px;
+    text-align: center;
+    padding: 20px 0px;
+    display: inline-block;
+    transform: translate(0px, 0px);
+    color: #c6c6c6;
+}
+.section2 i{
+    padding: 20px;
+    color: #0dbf9b;
+}
+.section2 p{
+   /* font-size: 0px; */
+   
+}
+.section3{
+    display: inline-block;
+    transform: translate(176px, -7px);
+}
+.section4{
+    transform: translate(305px, 0px);
+}
+.fixd-width{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+/* footer section */
+.footer-menu{
+      background-color: #0dbf9b;
+}
+.footer-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.footer-menu ul li{ 
+    display: inline-block;
+}
+.footer-menu ul li a{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    line-height: 146%;
+}
+.footer-bottom{
+    background-color: #636e72;
+    text-align: center;
+    padding: 15px 10px;
+    color: #fff;
+
+}
+
+
